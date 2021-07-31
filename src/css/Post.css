@@ -1,0 +1,243 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    padding : 10px;
+    background-color: rgb(220,220,220);
+    border: 1px solid #4f7dff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.post:hover{
+    border: 2px solid #4f7dff;
+}
+
+.post__info{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.post__info > h5 {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.post__info > h5:hover {
+    font-size: 15px;
+    text-decoration:underline;
+}
+
+.post__info > small {
+    position: absolute;
+    right: 0;
+}
+
+.post__body {
+    display: flex;
+    flex-direction: column; 
+}
+
+.post__body > .post__question {
+    margin-top: 10px;
+    font-weight: bold; 
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.post__body > .post__question > p {
+    padding: 5px;
+    max-width: 90vh;
+    margin-left: 8px;
+}
+
+.post__question > .post__btnAnswer{
+    margin-left: auto;
+    outline: none;
+    border: none;
+    background-color: #4f7dff;
+    color: white;
+    border-radius: 30px;
+    height: 5vh;
+    padding: 10px;
+}
+
+
+.post__question > .post__btnAnswer:hover{
+    transform: scale(105%);
+    background-color:#f86363;
+}
+
+.post__body > .post__question > p:hover {
+    text-decoration:underline;
+}
+
+.post__body > img{
+    object-fit: contain;
+    width: 100%;
+    max-height: 80vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post__footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post__footer > .MuiSvgIcon-root {
+    color: rgb(35,35,35);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.post__footer > .MuiSvgIcon-root:hover {
+    font-size: xx-large;
+    color: #4f7dff;
+}
+
+.post__footerAction {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 33px;
+    padding : 5px;
+    background-color: #C1C1C1;
+    align-items: center;
+}
+
+.post__footerAction > .MuiSvgIcon-root {
+    color: rgb(35,35,35);
+    justify-content: space-around;
+    
+    cursor: pointer;
+}
+
+.post__footerAction > .MuiSvgIcon-root:hover {
+    color: #f86363;
+    cursor: pointer;
+}
+
+.post__footerLeft {
+    margin-left: auto;
+}
+
+.post__footerLeft > .MuiSvgIcon-root {
+    color: rgb(35,35,35);
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.post__footerLeft > .MuiSvgIcon-root:hover {
+    font-size: xx-large;
+    color: #4f7dff;
+}
+
+.post__upward {
+    margin-left: 5px;
+    color: rgb(35,35,35);
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.post__upward:hover {
+    border: 1px solid #f86363;
+    border-radius: 100px;
+    color: #f86363;
+    cursor: pointer;
+}
+
+.post__downward {
+    margin-left: 20px;
+    margin-right: 5px;
+    color: rgb(35,35,35);
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.post__downward:hover {
+    border: 1px solid #f86363;
+    border-radius: 100px;
+    color: #f86363;
+    cursor: pointer;
+}
+
+.modal__question {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal__question > h1 {
+    color: #f86363;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.modal__question > p {
+    color: gray;
+    font-size: small;
+}
+
+.modal__question > p > .name {
+    color: black;
+    font-weight: bold;
+}
+
+.modal__answer {
+    display: flex;
+    padding-top: 20px;
+    flex: 1;
+}
+
+.modal__answer > textarea {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: blue;
+}
+
+.modal__button {
+    display: flex;
+    align-items: center;
+    margin-right: -20px;
+    margin-top: 5px;
+}
+
+.modal__button > .cancle {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+.modal__button > .cancle:hover {
+    transform: scale(105%);
+}
+
+
+.modal__button > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: #4f7dff;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+.modal__button > .add:hover {
+    transform: scale(105%);
+}
