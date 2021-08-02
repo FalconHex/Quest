@@ -15,7 +15,7 @@ Made using:
 3.Posting relevant links  
 4.Answering the posted questions  
   
----yet to come Features---  
+---Yet to come Features---  
 1.Upvote popular questions  
 2.Upload images directly  
 3.Searching for questions  
