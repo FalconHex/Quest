@@ -132,7 +132,7 @@ function Post( {Id, question, image, timestamp, questUser} ) {
                             style = {{
                                 position: 'relative',
                                 color: "blue",
-                                backgroundColor: "rgba(35,35,35,0.5)"
+                                backgroundColor: "#c2c2d6"
 
                             }}
                             >
